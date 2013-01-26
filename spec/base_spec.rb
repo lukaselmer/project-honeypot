@@ -1,4 +1,4 @@
-require "spec_helper"
+require 'spec_helper'
 
 describe ProjectHoneypot::Base do
   describe "with honeypot response" do

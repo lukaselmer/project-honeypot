@@ -1,6 +1,7 @@
 module ProjectHoneypot
   class Url
     attr_reader :ip_address, :last_activity, :score, :offenses
+
     def initialize(ip_address, honeypot_response)
       @ip_address = ip_address
       @safe = honeypot_response.nil?

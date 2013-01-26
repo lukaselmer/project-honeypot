@@ -1,7 +1,7 @@
-require "rubygems"
-require "bundler/setup"
-require "rspec"
-require "flexmock"
+require 'rubygems'
+require 'bundler/setup'
+require 'rspec'
+require 'flexmock'
 require 'project-honeypot'
 
 RSpec.configure do |config|

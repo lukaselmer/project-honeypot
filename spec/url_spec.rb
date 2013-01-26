@@ -2,8 +2,8 @@ require "spec_helper"
 
 describe ProjectHoneypot::Url do
   describe "with honeypot response" do
-    before(:each) do 
-      @url = ProjectHoneypot::Url.new("teachmetocode.com", "127.1.63.3") 
+    before(:each) do
+      @url = ProjectHoneypot::Url.new("teachmetocode.com", "127.1.63.3")
     end
 
     it "is safe" do
